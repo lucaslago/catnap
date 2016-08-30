@@ -77,3 +77,21 @@ button, .button:hover, button:hover, input[type="submit"]:hover, input[type="res
     top: 163px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 20px; 
+  }
+
+  .text-container:after {
+    width: 230px;
+  }
+
+  .text-container:before {
+    width: 230px;
+  }
+}
