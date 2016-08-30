@@ -7,9 +7,11 @@ var toggleState = function() {
   if(isPlaying) {
     video.pause();
     audio.pause();
+    playButton.innerHTML = 'Play'
   } else {
     video.play();
     audio.play();
+    playButton.innerHTML = 'Pause';
   }
   isPlaying = !isPlaying;
 };
