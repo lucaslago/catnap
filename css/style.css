@@ -25,7 +25,7 @@ section {
 }
 
 .text-container:before {
-	width: 220px;
+	width: 395px;
 	height: 1px;
 	border-top: 4px double #FFF;
 	content: "";
@@ -34,7 +34,7 @@ section {
 }
 
 .text-container:after {
-	width: 220px;
+	width: 395px;
 	height: 1px;
 	border-top: 4px double #FFF;
 	content: "";
