@@ -1,7 +1,7 @@
 var video = document.querySelector('#video');
 var audio = document.querySelector('#audio');
 var playButton = document.querySelector('#play-button');
-var isPlaying = true;
+var isPlaying = false;
 
 var toggleState = function() {
   if(isPlaying) {
