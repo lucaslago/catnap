@@ -49,7 +49,9 @@ h1 {
 	text-transform: uppercase;
 	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
-
+video {
+  width: 100%;
+}
 button, .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
 	color: white;
 	border-color: white;
