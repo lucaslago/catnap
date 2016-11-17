@@ -1,0 +1,16 @@
+{
+  "short_name": "Catnap",
+  "name": "Catnap",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/catnap/images/icon-150.jpg",
+      "sizes": "150x150",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#454343",
+  "background_color": "#454343"
+}
