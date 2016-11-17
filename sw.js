@@ -1,12 +1,12 @@
 var CACHE_NAME= 'catnap';
 var staticContent = [
-  '/index.html',
-  '/images/cat.jpg',
-  '/video/cat.mp4',
-  '/audio/music.mp3',
-  '/css/normalize.css',
-  '/css/skeleton.css',
-  '/css/style.css'
+  '/catnap/index.html',
+  '/catnap/images/cat.jpg',
+  '/catnap/video/cat.mp4',
+  '/catnap/audio/music.mp3',
+  '/catnap/css/normalize.css',
+  '/catnap/css/skeleton.css',
+  '/catnap/css/style.css'
 ];
 
 self.addEventListener('install', function(event) {

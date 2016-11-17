@@ -21,7 +21,7 @@ playButton.addEventListener('click', function() {
 })
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
+  navigator.serviceWorker.register('/catnap/sw.js')
     .then(function(reg) {
       console.log('Service Worker Registration succeeded: ' + JSON.stringify(reg));
     })
