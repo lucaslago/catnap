@@ -19,3 +19,13 @@ var toggleState = function() {
 playButton.addEventListener('click', function() {
   toggleState();
 })
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then(function(reg) {
+      console.log('Service Worker Registration succeeded: ' + JSON.stringify(reg));
+    })
+    .catch(function(error) {
+      console.log('Service Worker Registration failed with: ' + error);
+    })
+}
