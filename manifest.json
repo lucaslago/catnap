@@ -5,9 +5,9 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/catnap/images/icon-150.jpg",
+      "src": "/catnap/images/icon-150.png",
       "sizes": "150x150",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "start_url": "/",
